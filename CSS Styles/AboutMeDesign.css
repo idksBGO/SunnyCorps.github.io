@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Main Area */
+
+.Alignment {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+/* Left side */
+
+.Container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;     
+    width: 350px;         
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.Profile_Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile_Picture img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.Name_Info {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Name_Info .Name {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.Name_Info .Title_Age,
+.Name_Info .Title_Birthday {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.Name_Info .Age,
+.Name_Info .Birthdate {
+    text-align: right;
+    margin-top: 7px;
+}
+
+/* Right side */
+
+.self_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.self_info .Title_About {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.self_info .About {
+    text-justify: inter-word;
+    margin-top: 5px;
+}
+
+.self_info .Question {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.self_info .Answer {
+    text-justify: inter-word;
+    margin-top: 5px;
+}
+
+.self_info .Title_Contacts {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Email {
+    display: flex;               
+    justify-content: flex-start; 
+    align-items: center;         
+}
+
+.Address {
+    color: black;
+    text-justify: inter-word;
+    margin-top: 5px;
+}
+
+.self_info .Email  .gmail img,
+.self_info .Email  .Address {
+    margin-top: 5px;             
+    margin-right: 10px;          
+    width: 50px;          
+    height: auto;                
+}
+
+.Facebook {
+    display: flex;               
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.Profile_Name {
+    color: black;
+    text-justify: inter-word;
+    margin-top: 5px;
+}
+
+.self_info .Facebook  .fb img,
+.self_info .Facebook  .Profile_Name {
+    margin-top: 5px;             
+    margin-right: 10px;          
+    width: 50px;          
+    height: auto;                
+}

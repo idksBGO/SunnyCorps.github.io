@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.8;
+}
+
+body {
+    margin: 0;
+}
+
+aside {
+    width: 20%;
+    margin-top: 100px;
+    float: left;
+    padding: 20px;
+    font-size: 50px;
+}
+
+section {
+    width: 50%;
+    margin-top: 100px;
+    float: left;
+    padding: 20px;
+    text-align: right;
+}
