@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.8;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+                            /* Introduction & Section */
+
+aside {
+    margin-top: 500px;
+    width: 20%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    align-items: start;
+    height: 17000px;
+}
+
+.Side_Content {
+    min-width: 250px;
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+}
+
+.Side_TOC_Header {
+    font-size: 30px;
+    color: black;
+}
+
+.Side_TOC {
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+section {
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.TOC_Header4 {
+    font-size: 50px;
+    color: black;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.Meat {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+                            /* Table Of Contents */
+
+.TableOfContents {
+    font-size: 50px;
+}
+
+.headings-container {
+    font-size: 20px;
+}
+
+
+
+                            /* Portfolio 1 */
+
+.Port1_Header {
+    font-size: 55px;
+}
+
+/* Portfolio 1 - Sub Topic 1 */
+
+.Port1_Sub1 {
+    font-size: 40px;
+}
+
+
+
+/* Portfolio 1 - Sub Topic 2 */
+
+.Port1_Sub2 {
+    font-size: 40px;
+}
+
+
+
+                            /* Portfolio 2 */
+
+.Port2_Header {
+    font-size: 55px;
+}
+
+/* Portfolio 2 - Sub Topic 1 */
+
+.Port2_Sub1 {
+    font-size: 40px;
+}
+
+/* Portfolio 2- Sub Topic 2 */
+
+.Port2_Sub2 {
+    font-size: 40px;
+}
+
+/* Portfolio 2- Sub Topic 3 */
+
+.Port2_Sub3 {
+    font-size: 40px;
+}
+
+                            /* Portfolio 3 */
+
+.Port3_Header {
+    font-size: 55px;
+}
+
+/* Portfolio 3 - Sub Topic 1 */
+
+.Port3_Sub1 {
+    font-size: 40px;
+}
+
+/* Portfolio 3 - Sub Topic 2 */
+
+.Port3_Sub2 {
+    font-size: 40px;
+}
+
+/* Portfolio 3- Sub Topic 3 */
+
+.Port3_Sub3 {
+    font-size: 40px;
+}
+
+
+
+                            /* Portfolio 4 */
+
+.Port4_Header {
+    font-size: 55px;
+}
+
+/* Portfolio 4 - Sub Topic 1 */
+
+.Port4_Sub1 {
+    font-size: 40px;
+}
+
+.Port4_Comp {
+    font-size: 20px
+}
+
+/* Portfolio 4 - Sub Topic 2 */
+
+.Port4_Sub2 {
+    font-size: 40px;
+}
+
+/* Portfolio 4 - Sub Topic 3 */
+
+.Port4_Sub3 {
+    font-size: 40px;
+}
+
+
+
+                            /* Portfolio 5 */
+
+.Port5_Header {
+    font-size: 55px;
+}
+
+/* Portfolio 5 - Topic */
+
+.Port5_Sub1 {
+    font-size: 40px;
+}
+
+                            /* Table */
+
+                            table {
+                                width: 100%;
+                                border-collapse: collapse;
+                                margin-top: 20px;
+                            }
+                            th, td {
+                                border: 1px solid #ddd;
+                                padding: 10px;
+                                text-align: left;
+                            }
+                            th {
+                                background-color: #f4f4f4;
+                                font-weight: bold;
+                            }
+                            tr:nth-child(even) {
+                                background-color: #f9f9f9;
+                            }
+                            tr:hover {
+                                background-color: #e2e2e2;
+                            }
+                            .table-container {
+                                overflow-x: auto;
+                            }
+
+                            /* Portfolio 5 */
+
+.Port6_Header {
+    font-size: 55px;
+}
+
+/* Portfolio 6 - Topic */
+
+.Port6_Sub1 {
+    font-size: 40px;
+}

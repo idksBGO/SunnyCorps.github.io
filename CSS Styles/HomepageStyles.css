@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}  
+
+.p1 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 600px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+.Section_title {
+    font-size: 30px;
+}
+
+.p1_background {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 75vh;
+}
+
+.Greetings_design {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 75px;
+}
+
+.Greetings {
+    color: black;
+    font-weight: bold;
+}
+
+.p2_background {
+    margin-bottom: 900px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.p2 {
+    font-size: 25px;
+    text-align: center;
+}
